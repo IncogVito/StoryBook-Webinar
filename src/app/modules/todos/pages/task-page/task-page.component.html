@@ -1,0 +1,26 @@
+<div class="task-page">
+
+  <div class="task-page__heading">
+    You're task to be managed
+  </div>
+
+  <div class="task-page__columns">
+  <app-task-column
+  [taskList]="awaitingTasks"
+  columnTitle="Awaiting"
+   borderColor="purple">
+  </app-task-column>
+
+  <app-task-column
+   [taskList]="inProgressTasks"
+   columnTitle="In Progress"
+  borderColor="orange">
+  </app-task-column>
+
+  <app-task-column
+  [taskList]="tasksDone"
+  columnTitle="Done"
+   borderColor="green">
+  </app-task-column>
+  </div>
+</div>
