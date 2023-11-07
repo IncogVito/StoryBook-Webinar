@@ -1,0 +1,11 @@
+<div class="tasks-column">
+
+  <app-single-task *ngFor="let singleTask of tasks"
+  [title]="singleTask.title"
+  [content]="singleTask.content"
+  [badgeText]="singleTask.badgeText"
+  [badgeType]="singleTask.badgeType"
+  >
+  </app-single-task>
+
+</div>

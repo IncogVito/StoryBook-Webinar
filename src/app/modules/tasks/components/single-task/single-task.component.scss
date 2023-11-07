@@ -1,0 +1,17 @@
+.single-task {
+  display: grid;
+  grid-template-rows: 2rem 1fr 1.5rem;
+  height: 10rem;
+  border-radius: .75rem;
+  background-color:  #404247  ;
+
+  padding: 1rem;
+  color: white;
+  max-width: 15rem;
+
+  &__content {
+    overflow: hidden;
+    font-size: .8rem;
+  }
+
+}
