@@ -1,0 +1,25 @@
+.badge-primary {
+  padding: 0.2rem 0.6rem;
+  background-color: grey;
+  border: 1px solid darkgray;
+  border-radius: 1rem;
+  font-size: .7rem;
+
+  &--success {
+    background-color: transparent;
+    border-color: greenyellow;
+    color: greenyellow;
+  }
+
+  &--warn {
+    background-color: transparent;
+    border-color: orange;
+    color: orange;
+  }
+
+  &--error {
+    background-color: transparent;
+    border-color: red;
+    color: red;
+  }
+}

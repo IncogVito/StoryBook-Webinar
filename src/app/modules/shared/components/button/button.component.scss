@@ -1,0 +1,16 @@
+.button {
+  border: 1px solid blueviolet;
+  border-radius: .75rem;
+  padding: .2rem .5rem;
+
+
+  &--primary {
+    background-color: blueviolet;
+    color: white;
+  }
+
+  &--secondary {
+    color: blueviolet;
+    background-color: transparent;
+  }
+}
